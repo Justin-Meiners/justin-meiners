@@ -1,4 +1,6 @@
-import { GitBranch, Link, Mail, Moon, Sun } from "lucide-react";
+import { 
+  // GitBranch, 
+  Link, Mail, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
@@ -92,7 +94,7 @@ export function Header() {
           >
             <Mail size={18} />
           </a>
-          <a
+          {/* <a
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -100,9 +102,9 @@ export function Header() {
             aria-label="GitHub"
           >
             <GitBranch size={18} />
-          </a>
+          </a> */}
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/justinmeiners/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"

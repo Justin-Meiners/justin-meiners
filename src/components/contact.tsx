@@ -44,11 +44,6 @@ export function Contact() {
             </div>
           </div>
         </div>
-        <div className="mt-16 pt-8 border-t border-gray-200 dark:border-gray-700 text-center transition-colors duration-700">
-          <p className="text-sm text-gray-500 dark:text-gray-400 transition-colors duration-700">
-            © 2026 Justin Meiners. All rights reserved.
-          </p>
-        </div>
       </div>
     </section>
   );
